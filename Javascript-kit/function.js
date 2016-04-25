@@ -11,7 +11,7 @@ var plugs = {
     }
 };
 
-var Module_pgy = (function(o,plugs){
+var JKit = (function(o,plugs){
 
     var defaults = {
         url:location.href
@@ -33,8 +33,8 @@ var Module_pgy = (function(o,plugs){
     };
 
     return o;
-})((Module_pgy || {}),plugs);
+})((JKit || {}),plugs);
 
 //Demo
-alert(Module_pgy.urls.getParam({url:"http://www.baidu.com?id=1",param:'id'}));
+//alert(JKit.urls.getParam({url:"http://www.baidu.com?id=1",param:'id'}));
 
