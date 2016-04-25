@@ -21,20 +21,41 @@ var JKit = (function(o,plugs){
     * 链接操作通用函数
     * */
     o.urls = {
-        param:""
+        url : "",
+        param : ""
     };
     o.urls.getParam = function(opts){
         var opts = plugs.extend(defaults,opts);
         var url = opts.url;
+        url = url.substr(url.indexOf("?"));
 
         var reg = new RegExp("(^|&)"+ opts.param +"=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
+        var r = url.substr(1).match(reg);
         if(r!=null)return  unescape(r[2]); return null;
+    };
+
+    /*
+    * 控制元素显示、隐藏
+    * */
+    var toggle = {
+        idName : "JKshow",
+        className : "",
+        flag : true
+    };
+    o.showOrhide = function(opts){
+        var opts = plugs.extend(toggle,opts);
+        var flag = opts.flag;
+        var eleId = document.getElementById(opts.idName);
+        var showOrHide = eleId.style.display;
+
+        if(flag && showOrHide=="none")
+            eleId.style.display = "block";
+        else
+            eleId.style.display = "none";
+
     };
 
     return o;
 })((JKit || {}),plugs);
 
-//Demo
-//alert(JKit.urls.getParam({url:"http://www.baidu.com?id=1",param:'id'}));
 
