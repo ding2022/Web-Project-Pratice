@@ -6,7 +6,7 @@ getParam()
 -url 链接地址
 -param 参数名
 
-调用示例
+调用示例 demo-url.html
 JKit.urls.getParam({url:"http://www.baidu.com?id=1",param:'id'}
 ```
 
@@ -18,7 +18,7 @@ showOrhide()
 -className 未完
 -flag 是显示还是隐藏的标志，默认为true，即显示
 
-调用示例
+调用示例 demo-toggle.html
 JKit.showOrhide();
 ```
 
