@@ -14,7 +14,8 @@ var plugs = {
 var JKit = (function(o,plugs){
 
     var defaults = {
-        url:location.href
+        url:location.href,
+        idName : "JKshow"
     };
 
     /*
@@ -37,18 +38,15 @@ var JKit = (function(o,plugs){
     /*
     * 控制元素显示、隐藏
     * */
-    var toggle = {
-        idName : "JKshow",
+    o.toggle = {
         className : "",
-        flag : true
     };
-    o.showOrhide = function(opts){
-        var opts = plugs.extend(toggle,opts);
-        var flag = opts.flag;
+    o.toggle.showOrhide = function(opts){
+        var opts = plugs.extend(defaults,opts);
         var eleId = document.getElementById(opts.idName);
         var showOrHide = eleId.style.display;
 
-        if(flag && showOrHide=="none")
+        if(showOrHide == "none")
             eleId.style.display = "block";
         else
             eleId.style.display = "none";

@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/function.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -36,8 +36,8 @@
       <file leaf-file-name="demo-toggle.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-toggle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7027027">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.6756757">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
         <option value="$PROJECT_DIR$/objtest.js" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/demo-url.html" />
-        <option value="$PROJECT_DIR$/demo-toggle.html" />
         <option value="$PROJECT_DIR$/function.js" />
+        <option value="$PROJECT_DIR$/demo-toggle.html" />
       </list>
     </option>
   </component>
@@ -276,7 +276,7 @@
     <entry file="file://$PROJECT_DIR$/function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
@@ -285,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-toggle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7027027">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6756757">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>

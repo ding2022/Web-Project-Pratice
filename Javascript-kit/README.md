@@ -16,10 +16,9 @@ JKit.urls.getParam({url:"http://www.baidu.com?id=1",param:'id'}
 showOrhide()
 -idName 需要隐藏盒子的id属性
 -className 未完
--flag 是显示还是隐藏的标志，默认为true，即显示
 
 调用示例 demo-toggle.html
-JKit.showOrhide();
+JKit.toggle.showOrhide();
 ```
 
 
