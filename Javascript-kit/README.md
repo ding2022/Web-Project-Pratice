@@ -17,6 +17,9 @@ showOrhide()
 -idName 需要隐藏盒子的id属性
 -className 未完
 -flag 是显示还是隐藏的标志，默认为true，即显示
+
+调用示例
+JKit.showOrhide();
 ```
 
 
